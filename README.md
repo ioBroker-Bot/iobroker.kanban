@@ -122,6 +122,9 @@ From **0.1.1**: token-secured write API, Markdown preview sanitized with DOMPuri
 
 ## Changelog
 
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 - **0.2.1**
   - Now runs on **Express 5** (updated dependency)
   - Fixed the **user avatar upload** ("image could not be read"): the Content-Security-Policy blocked the `blob:` URL used to read the file; the image is now loaded without a `blob:` URL, so the CSP stays strict
